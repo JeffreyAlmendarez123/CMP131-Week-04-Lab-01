@@ -7,11 +7,10 @@ theater_percantage=0.20
 gross_profit=(adult_tickets * adult_price)+ (child_tickets * child_price)
 net_profit=gross_profit*theater_percantage
 distributor_amount=gross_profit-net_profit 
-print(movie_name)
-print(adult_tickets)
-print(child_tickets)
 print()
-
+print("Name of Movie:", movie_name)
+print("Adult Tickets sold:", adult_tickets)
+print("Child Tickets Sold:", child_tickets)
 print(f"Gross Box profit:   ${gross_profit:,.2f}")
 print(f"Net box profit:  ${net_profit:,.2f}")
 print(f"Amount paid to distrubutor: ${distributor_amount:,.2f}")
