@@ -1,3 +1,9 @@
+#Jeffrey Almendarez
+#CMP131/Fundementals of programming
+#Week-04
+#Lab-01
+#Box office Report
+#9/16/26
 movie_name=input("Name of Movie: ")
 adult_tickets=int(input("How much Adults tickets were sold? "))
 child_tickets= int(input("How many childrens tickets were sold? "))
